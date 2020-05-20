@@ -33,7 +33,7 @@ depends=(${ros_depends[@]})
 # sha256sums=('a87ad55c71a84901964307736020e522853487171b5a0d60431c6e9ea20045cc')
 
 # Tarball version (faster download)
-_dir="moveit-${pkgver}/moveit_ros_robot_interaction"
+_dir="moveit-${pkgver}/moveit_ros/robot_interaction"
 source=("${pkgname}-${pkgver}.tar.gz"::"https://github.com/ros-planning/moveit/archive/${pkgver}.tar.gz")
 sha256sums=('b0ac91cd4c4dc29d9bd5e3885a1a457252495b3f2bedb46ddfe04154f5ac2358')
 
